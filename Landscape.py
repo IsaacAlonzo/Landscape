@@ -56,7 +56,16 @@ def roof():
 
 roof()
 
-john.left(90)
+phil.goto(75, 150)
+def window():
+    phil.color("cornflower blue")
+    phil.begin_fill()
+    for i in range(4):
+        phil.right(90)
+        phil.forward(50)
+    phil.end_fill()
+
+window()
 
 
 
