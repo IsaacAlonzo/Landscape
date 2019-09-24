@@ -14,6 +14,7 @@ sven.shape("classic")
 bob.penup()
 phil.penup()
 sven.penup()
+turtle.bgcolor("light sky blue")
 
 def grass():
     bob.begin_fill()
@@ -40,7 +41,20 @@ def house():
     john.end_fill()
 house()
 
+def roof():
+    john.left(90)
+    john.forward(200)
+    john.right(90)
+    john.penup()
+    john.color("black")
+    john.begin_fill()
+    john.forward(200)
+    for i in range(3):
+        john.left(120)
+        john.forward(200)
+    john.end_fill()
 
+roof()
 
 john.left(90)
 
