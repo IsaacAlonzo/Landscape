@@ -112,9 +112,29 @@ def door():
 
 door()
 
+sven.goto(275, 0)
+def tree():
+    sven.color("sienna")
+    sven.begin_fill()
+    sven.left(90)
+    sven.forward(150)
+    sven.right(90)
+    sven.forward(50)
+    sven.right(90)
+    sven.forward(150)
+    sven.right(90)
+    sven.forward(50)
+    sven.end_fill()
+    sven.right(90)
+    sven.forward(200)
+    sven.left(90)
+    sven.back(25)
+    sven.begin_fill()
+    sven.color("green")
+    sven.circle(50)
+    sven.end_fill()
 
-
-
+tree()
 
 
 
