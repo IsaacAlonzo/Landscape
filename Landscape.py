@@ -64,10 +64,43 @@ def window():
         phil.right(90)
         phil.forward(50)
     phil.end_fill()
+    phil.color("black")
+    phil.right(90)
+    phil.forward(25)
+    phil.right(90)
+    phil.pendown()
+    phil.forward(50)
+    phil.right(90)
+    phil.penup()
+    phil.forward(25)
+    phil.right(90)
+    phil.forward(25)
+    phil.right(90)
+    phil.pendown()
+    phil.forward(50)
+    phil.penup()
 
 window()
 
+phil.goto(175, 100)
 
+window()
+
+def sun():
+    sven.begin_fill()
+    sven.color("yellow")
+    sven.circle(80)
+    sven.end_fill()
+
+sven.goto(-250, 200)
+sun()
+
+bob.color("brown")
+bob.goto(75, 0)
+
+def door():
+    bob.left(90)
+    
 
 
 
