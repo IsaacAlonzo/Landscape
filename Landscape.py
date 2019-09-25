@@ -95,14 +95,22 @@ def sun():
 sven.goto(-250, 200)
 sun()
 
-bob.color("brown")
+bob.color("saddle brown")
 bob.goto(75, 0)
 
 def door():
     bob.left(90)
-    
+    bob.begin_fill()
+    bob.forward(100)
+    bob.right(90)
+    bob.forward(50)
+    bob.right(90)
+    bob.forward(100)
+    bob.right(90)
+    bob.forward(50)
+    bob.end_fill()
 
-
+door()
 
 
 
