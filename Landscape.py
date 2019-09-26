@@ -136,6 +136,10 @@ def tree():
 
 tree()
 
+sven.goto(-150, 0)
+sven.left(180)
+tree()
+
 
 
 
