@@ -140,9 +140,28 @@ sven.goto(-150, 0)
 sven.left(180)
 tree()
 
+def orange():
+    bob.penup()
+    bob.begin_fill()
+    bob.color("orange")
+    bob.circle(7)
+    bob.end_fill()
 
+bob.goto(-140, 175)
+orange()
+bob.goto(-110, 165)
+orange()
+bob.goto(-140, 145)
+orange()
+bob.goto(-120, 135)
+orange()
 
-
+bob.goto(275, 172)
+orange()
+bob.goto(315, 171)
+orange()
+bob.goto(295, 143)
+orange()
 
 
 
